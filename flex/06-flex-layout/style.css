@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* novo */
+  display: flex;
+  flex-direction: column;
+  
 }
 
 img {
@@ -25,3 +29,67 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Novo */
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: rgb(88, 88, 88);
+  text-decoration: none; 
+}
+
+.header {
+  display: flex;
+  
+}
+
+.footer {
+  display:flex;
+  margin-top: auto;
+  background-color: rgb(236, 236, 236);
+}
+
+.left-links {
+  display:flex;
+  padding-left: 10px;
+  
+}
+
+.right-links {
+  display: flex;
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+li {
+  margin: 5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.kutija {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+
+}
+
+.buttons {
+  display:flex;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
